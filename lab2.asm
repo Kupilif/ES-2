@@ -24,7 +24,7 @@ FN_READ_FROM_EEPROM:
     MOVLW c_string_start_in_eeprom ;
     MOVWF EEADR                    ; Initialize ee_str address
 
-    MOvLW c_string_start_in_memory ;
+    MOVLW c_string_start_in_memory ;
     MOVWF FSR                      ; Initialize mem_str address
 
 T1_FN_READ_LOOP:
